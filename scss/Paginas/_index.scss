@@ -1,0 +1,38 @@
+/* Index */
+.inicioTitulo {
+    @extend %center;
+    font-size: 3em;
+    margin: 1em 0em 1em 0em;
+    font-family: font;
+}
+
+.inicioFoto {
+    width: 40rem;
+    height: 20rem;
+    margin: auto auto;
+}
+
+.seccionFunciones {
+    @extend %around;
+    flex-wrap: wrap;
+    padding-bottom: 3em;
+}
+
+
+.informacionImportante {
+    margin-bottom: 2rem;
+}
+
+.detalles {
+    @extend %center;
+    font-size: 3em;
+    font-family: 'Oxygen', sans-serif;
+    color: tomato;
+}
+
+.seccionDos {
+    width: 360px;
+    height: 150px;
+}
+
+

@@ -1,0 +1,274 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@font-face {
+  font-family: mfont;
+  src: url(Font/DINPro.otf) format("opentype");
+}
+/* Animacion de Botones */
+.movimg {
+  transition: all 0.8s;
+}
+.movimg:hover {
+  transform: translate(5px, -10px);
+}
+
+/* Animaciones Fotos */
+.movimg2 {
+  transition: all 1s;
+}
+.movimg2:hover {
+  transform: scale(1.1);
+}
+
+/* Colores */
+.detalles, .inicioTitulo, .divFuncionarios, .detallesgrid {
+  display: flex;
+  justify-content: center;
+}
+
+.seccionFunciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.m_font {
+  font-family: mfont;
+}
+
+/* Gobierno */
+.funcionarioTamaño {
+  height: 50vh;
+}
+
+.funcionarioFont {
+  font-family: font;
+  font-size: 3rem;
+  text-decoration: underline;
+  padding-top: 8rem;
+}
+
+.detallesgrid {
+  font-size: 1.5em;
+  font-family: font;
+}
+
+.divFuncionarios {
+  padding-top: 6rem;
+}
+
+.imgfuncionarios {
+  width: 10em;
+  height: 10em;
+}
+
+.funcionarioBorde {
+  border: 0.1em double grey;
+}
+
+/* Laciudad */
+.m_tamañoCarrusel {
+  width: 30rem;
+  margin: auto 5rem;
+}
+
+.ciudadTexto {
+  font-size: 1.4rem;
+  font-family: mfont;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0rem 5rem;
+}
+
+.ciudadCucu {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+}
+
+.m_tamaño {
+  height: 100vh;
+}
+
+.ciudadIglesia {
+  width: 30rem;
+  height: 30rem;
+  margin: auto 5rem;
+  border-radius: 50%;
+}
+
+/* Noticias */
+/* Contacto */
+/* Centrar Formulario */
+.m_centerformH {
+  margin-left: 18rem;
+  margin-right: 18rem;
+}
+
+.m_centerformV {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Index */
+.inicioTitulo {
+  font-size: 3em;
+  margin: 1em 0em 1em 0em;
+  font-family: font;
+}
+
+.inicioFoto {
+  width: 40rem;
+  height: 20rem;
+  margin: auto auto;
+}
+
+.seccionFunciones {
+  flex-wrap: wrap;
+  padding-bottom: 3em;
+}
+
+.informacionImportante {
+  margin-bottom: 2rem;
+}
+
+.detalles {
+  font-size: 3em;
+  font-family: "Oxygen", sans-serif;
+  color: tomato;
+}
+
+.seccionDos {
+  width: 360px;
+  height: 150px;
+}
+
+/* Responsive Moto G4  */
+@media (max-width: 400px) {
+  .inicioFoto {
+    width: 260px;
+    height: 130px;
+  }
+
+  .inicioTitulo {
+    font-size: 1em;
+  }
+
+  .seccionDos {
+    margin: 10px 0px;
+  }
+
+  .telefonos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .ciudadCucu {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 25px;
+  }
+
+  .ciudadTexto {
+    font-size: 1.2rem;
+  }
+
+  .m_tamañoCarrusel {
+    width: 15rem;
+  }
+
+  .ciudadIglesia {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .imgfuncionarios {
+    width: 5em;
+    height: 5em;
+  }
+
+  .funcionarioFont {
+    font-family: font;
+    font-size: 1rem;
+    text-decoration: underline;
+    padding-top: 1rem;
+  }
+
+  .detallesgrid {
+    font-size: 1em;
+    font-family: font;
+  }
+
+  .divFuncionarios {
+    padding-top: 1rem;
+  }
+}
+/* Responsive Ipad Tablet */
+@media (max-width: 800px) and (min-width: 401px) {
+  .inicioFoto {
+    width: 660px;
+    height: 330px;
+  }
+
+  .inicioTitulo {
+    font-size: 1em;
+  }
+
+  .menuUno {
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+  }
+
+  .seccionDos {
+    margin: 10px 0px;
+  }
+
+  .telefonos {
+    display: flex;
+    padding-left: 40px;
+    flex-wrap: wrap;
+  }
+
+  .ciudadCucu {
+    width: 25rem;
+    height: 25rem;
+    margin-bottom: 25px;
+  }
+
+  .ciudadTexto {
+    font-size: 2rem;
+  }
+
+  .m_tamañoCarrusel {
+    width: 40rem;
+  }
+
+  .noticias {
+    margin-left: 150px;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff4f;
+}
+
+.fondo2 {
+  background-color: #e9e9e9;
+}
+
+/*# sourceMappingURL=style.css.map */

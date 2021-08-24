@@ -1,0 +1,11 @@
+/* Contacto */
+
+
+/* Centrar Formulario */
+.m_centerformH {
+@include centrarH (18rem, 18rem)
+}
+
+.m_centerformV {
+@include centrarV (5rem, 5rem)
+}

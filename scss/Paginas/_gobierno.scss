@@ -1,0 +1,33 @@
+/* Gobierno */
+
+.funcionarioTamaño {
+    height: 50vh
+}
+
+.funcionarioFont{
+font-family: font;
+font-size: 3rem;
+text-decoration: underline;
+padding-top: 8rem;
+}
+
+
+.detallesgrid {
+    @extend %center;
+    font-size: 1.5em;
+    font-family: font;
+}
+
+.divFuncionarios {
+    padding-top: 6rem;
+    @extend %center
+}
+
+.imgfuncionarios {
+    width: 10em;
+    height: 10em;
+}
+
+.funcionarioBorde {
+    border: 0.1em double grey;
+}

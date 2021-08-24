@@ -1,0 +1,17 @@
+/* Animacion de Botones */
+.movimg {
+    transition: all 0.8s;
+
+    &:hover{
+        transform: translate(5px, -10px);
+    }
+}
+
+
+/* Animaciones Fotos */
+.movimg2 {
+    transition: all 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

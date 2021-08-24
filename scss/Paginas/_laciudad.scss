@@ -1,0 +1,32 @@
+/* Laciudad */
+
+.m_tamañoCarrusel {
+    width: 30rem;
+    margin: auto 5rem;
+}
+
+.ciudadTexto {
+    font-size: 1.4rem;
+    font-family: mfont;
+    @include centrarV (auto, auto);
+    padding: 0rem 5rem;
+}
+
+.ciudadCucu {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+}
+
+.m_tamaño {
+    height: 100vh;
+}
+
+.ciudadIglesia {
+    width: 30rem;
+    height: 30rem;
+    margin: auto 5rem;
+    border-radius: 50%;
+}
+
+

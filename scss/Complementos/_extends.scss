@@ -1,0 +1,34 @@
+
+%center {
+    display: flex;
+    justify-content: center;
+}
+%around{
+    display: flex;
+    justify-content: space-around;
+}
+
+%end {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+%right{
+    display: flex;
+    justify-content: right;
+}
+
+@mixin centrarH ($margen-l, $margen-r) {
+    margin-left: $margen-l;
+    margin-right: $margen-r;
+}
+
+@mixin centrarV ($margen-t, $margen-b) {
+    margin-top: $margen-t;
+    margin-bottom: $margen-b;
+}
+
+.m_font {
+    font-family: mfont;
+}

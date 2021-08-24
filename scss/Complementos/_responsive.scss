@@ -1,0 +1,124 @@
+/* Responsive Moto G4  */
+@media(max-width:400px) {
+
+    // index
+    .inicioFoto {
+        width: 260px;
+        height: 130px;
+    }
+
+    .inicioTitulo {
+        font-size: 1em;
+    }
+
+    .seccionDos {
+        margin: 10px 0px;
+    }
+
+    .telefonos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    
+    // ciudad
+    .ciudadCucu {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 25px;
+    }
+
+    .ciudadTexto {
+        font-size: 1.2rem;
+    }
+
+    .m_tamañoCarrusel {
+        width: 15rem;
+    }
+
+    .ciudadIglesia {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    
+    
+    // Funcionarios 
+    .imgfuncionarios {
+        width: 5em;
+        height: 5em;
+    }
+
+    .funcionarioFont {
+        font-family: font;
+        font-size: 1rem;
+        text-decoration: underline;
+        padding-top: 1rem;
+    }
+
+    .detallesgrid {
+        @extend %center;
+        font-size: 1em;
+        font-family: font;
+    }
+    .divFuncionarios{
+        padding-top: 1rem;
+    }
+
+
+}
+
+/* Responsive Ipad Tablet */
+
+@media(max-width:800px) and (min-width:401px) {
+
+    
+    // Index
+    .inicioFoto {
+        width: 660px;
+        height: 330px;
+    }
+
+    .inicioTitulo {
+        font-size: 1em;
+    }
+
+    .menuUno {
+        font-size: 1em;
+        width: 100px;
+        height: 40px;
+    }
+
+    .seccionDos {
+        margin: 10px 0px;
+    }
+
+
+    .telefonos {
+        display: flex;
+        padding-left: 40px;
+
+        flex-wrap: wrap;
+    }
+
+    
+    // La ciudad
+    .ciudadCucu {
+        width: 25rem;
+        height: 25rem;
+        margin-bottom: 25px;
+    }
+
+    .ciudadTexto {
+        font-size: 2rem;
+    }
+
+    .m_tamañoCarrusel {
+        width: 40rem;
+    }
+
+    .noticias {
+        margin-left: 150px;
+    }
+}
