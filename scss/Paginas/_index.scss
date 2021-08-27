@@ -9,15 +9,15 @@
 .inicioFoto {
     width: 40rem;
     height: 20rem;
-    margin: auto auto;
+    margin-left: 7rem;
 }
 
 .seccionFunciones {
-    @extend %around;
+    @extend %evenly;
     flex-wrap: wrap;
     padding-bottom: 3em;
+    margin-bottom: 3em;
 }
-
 
 .informacionImportante {
     margin-bottom: 2rem;

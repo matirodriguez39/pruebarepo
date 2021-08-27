@@ -11,7 +11,11 @@
 %end {
     display: flex;
     justify-content: flex-end;
+}
 
+%evenly {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 %right{

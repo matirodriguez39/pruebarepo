@@ -6,10 +6,10 @@
 }
 /* Animacion de Botones */
 .movimg {
-  transition: all 0.8s;
+  transition: all 0.6s;
 }
 .movimg:hover {
-  transform: translate(5px, -10px);
+  transform: scale(1.2);
 }
 
 /* Animaciones Fotos */
@@ -28,7 +28,7 @@
 
 .seccionFunciones {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .m_font {
@@ -119,12 +119,13 @@
 .inicioFoto {
   width: 40rem;
   height: 20rem;
-  margin: auto auto;
+  margin-left: 7rem;
 }
 
 .seccionFunciones {
   flex-wrap: wrap;
   padding-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 .informacionImportante {
