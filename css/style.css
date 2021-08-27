@@ -43,7 +43,6 @@
 .funcionarioFont {
   font-family: font;
   font-size: 3rem;
-  text-decoration: underline;
   padding-top: 8rem;
 }
 
@@ -92,7 +91,6 @@
 .ciudadIglesia {
   width: 30rem;
   height: 30rem;
-  margin: auto 5rem;
   border-radius: 50%;
 }
 
@@ -141,6 +139,12 @@
 .seccionDos {
   width: 360px;
   height: 150px;
+}
+
+.pmFotos {
+  width: 38rem;
+  height: 24rem;
+  margin-top: 8rem;
 }
 
 /* Responsive Moto G4  */
