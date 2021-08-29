@@ -147,6 +147,14 @@
   margin-top: 8rem;
 }
 
+.textoSC {
+  margin-top: 8rem;
+}
+
+.carruselSalud {
+  width: 50rem;
+}
+
 /* Responsive Moto G4  */
 @media (max-width: 400px) {
   .inicioFoto {
