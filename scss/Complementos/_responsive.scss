@@ -10,7 +10,6 @@
     .inicioFoto {
         width: 260px;
         height: 130px;
-        margin-left: 0rem;
         margin-bottom: 1rem;
     }
 
@@ -125,23 +124,166 @@
     .saludNoticias {
         margin: 0rem;
     }
-    .saludNoticias2{
-      margin: 0rem;  
-      margin-bottom: 2rem;
+
+    .saludNoticias2 {
+        margin: 0rem;
+        margin-bottom: 2rem;
     }
 
 
 }
 
+// Responsive Pixel 2
+@media (max-width:600px) and (min-width:401px) {
+    // index
+
+    .seccionFunciones-resp {
+        margin-bottom: 1rem;
+    }
+
+    .inicioFoto {
+        width: 260px;
+        height: 130px;
+        margin-bottom: 1rem;
+    }
+
+    .inicioTitulo {
+        font-size: 1em;
+    }
+
+    .seccionDos {
+        margin: 10px 2px;
+        padding-left: 1rem;
+
+    }
+
+    .telefonos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    // ciudad
+    .ciudadCucu {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 25px;
+    }
+
+    .ciudadTexto {
+        font-size: 1.2rem;
+    }
+
+    .m_tamañoCarrusel {
+        width: 15rem;
+    }
+
+    .ciudadIglesia {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .ciudadTexto-mov {
+        margin-bottom: 1.5rem;
+    }
+
+    // noticias
+    .mNoticias{
+        margin-left: 0rem;
+    }
+
+
+    // Funcionarios 
+    .imgfuncionarios {
+        width: 5em;
+        height: 5em;
+    }
+
+    .funcionarioFont {
+        font-family: font;
+        font-size: 1rem;
+        text-decoration: underline;
+        padding-top: 1rem;
+    }
+
+    .detallesgrid {
+        font-size: 1em;
+        font-family: font;
+    }
+
+    .divFuncionarios {
+        padding-top: 1rem;
+    }
+
+
+    // Seguridad Ciudadana 
+    .pmFotos {
+        width: 20rem;
+        height: 13rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .textoSC {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    // Covid 
+    .acordeonCovidT {
+        width: 20rem;
+    }
+
+    .turnoVacunaT {
+        width: 25rem;
+    }
+
+    // Premoldeados
+
+    .pmtexto {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .pmFotos iframe {
+        width: 20rem;
+    }
+
+    // Saludable
+
+    .saludTexto {
+        margin: 1rem 1rem;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .saludNoticias {
+        margin: 0rem;
+    }
+
+    .saludNoticias2 {
+        margin: 0rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+
+}
+
 /* Responsive Ipad Tablet */
 
-@media(max-width:800px) and (min-width:401px) {
+@media(max-width:800px) and (min-width:601px) {
 
 
     // Index
     .inicioFoto {
         width: 660px;
         height: 330px;
+        margin-bottom: 1rem;
+    }
+
+    .seccionFunciones-resp {
+        margin-bottom: 1rem;
     }
 
     .inicioTitulo {
@@ -162,7 +304,6 @@
     .telefonos {
         display: flex;
         padding-left: 40px;
-
         flex-wrap: wrap;
     }
 
@@ -184,5 +325,57 @@
 
     .noticias {
         margin-left: 150px;
+    }
+
+
+    // Seguridad Ciudadana 
+    .pmFotos {
+        width: 38rem;
+        height: 25rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .textoSC {
+        margin-top: 2rem;
+        font-size: 1.7rem;
+    }
+
+    // Covid 
+    .acordeonCovidT {
+        width: 40rem;
+    }
+
+    .turnoVacunaT {
+        width: 42rem;
+    }
+
+    // Premoldeados
+
+    .pmtexto {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .pmFotos iframe {
+        width: 40rem;
+    }
+
+    // Saludable
+
+    .saludTexto {
+        margin: 2rem 1rem;
+        font-size: 1.8rem;
+        padding: 0;
+    }
+
+    .saludNoticias {
+        margin: 3rem;
+    }
+
+    .saludNoticias2 {
+        margin: 0rem;
+        margin-bottom: 2rem;
+        margin-left: 8rem;
     }
 }
