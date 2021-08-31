@@ -156,6 +156,24 @@
   margin-bottom: 3rem;
 }
 
+.saludTexto {
+  font-size: 1.4rem;
+  font-family: mfont;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0rem 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.saludNoticias {
+  margin: 5rem;
+}
+
+.saludNoticias2 {
+  margin: 3rem;
+}
+
 .carruselCovid {
   width: 35rem;
   margin-bottom: 4rem;
@@ -188,9 +206,15 @@
 
 /* Responsive Moto G4  */
 @media (max-width: 400px) {
+  .seccionFunciones-resp {
+    margin-bottom: 1rem;
+  }
+
   .inicioFoto {
     width: 260px;
     height: 130px;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
   }
 
   .inicioTitulo {
@@ -198,7 +222,8 @@
   }
 
   .seccionDos {
-    margin: 10px 0px;
+    margin: 10px 2px;
+    padding-left: 1rem;
   }
 
   .telefonos {
@@ -226,6 +251,10 @@
     height: 20rem;
   }
 
+  .ciudadTexto-mov {
+    margin-bottom: 1.5rem;
+  }
+
   .imgfuncionarios {
     width: 5em;
     height: 5em;
@@ -245,6 +274,48 @@
 
   .divFuncionarios {
     padding-top: 1rem;
+  }
+
+  .pmFotos {
+    width: 20rem;
+    height: 13rem;
+  }
+
+  .textoSC {
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+
+  .acordeonCovidT {
+    width: 20rem;
+  }
+
+  .turnoVacunaT {
+    width: 22.5rem;
+  }
+
+  .pmtexto {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .pmFotos iframe {
+    width: 20rem;
+  }
+
+  .saludTexto {
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .saludNoticias {
+    margin: 0rem;
+  }
+
+  .saludNoticias2 {
+    margin: 0rem;
+    margin-bottom: 2rem;
   }
 }
 /* Responsive Ipad Tablet */

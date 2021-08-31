@@ -1,0 +1,31 @@
+.pmFotos {
+    width: 38rem;
+    height: 24rem;
+    margin-top: 8rem;
+}
+
+.textoSC {
+    margin-top: 8rem;
+}
+
+.carruselSalud {
+    width: 50rem;
+    margin-bottom: 3rem;
+}
+
+.saludTexto {
+    font-size: 1.4rem;
+    font-family: mfont;
+    @include centrarV (auto, auto);
+    padding: 0rem 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+.saludNoticias {
+    margin: 5rem;
+}
+.saludNoticias2 {
+    margin: 3rem;
+}
