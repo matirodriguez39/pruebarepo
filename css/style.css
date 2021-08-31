@@ -9,7 +9,7 @@
   transition: all 0.6s;
 }
 .movimg:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* Animaciones Fotos */
@@ -153,6 +153,37 @@
 
 .carruselSalud {
   width: 50rem;
+  margin-bottom: 3rem;
+}
+
+.carruselCovid {
+  width: 35rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.acordeonCovid {
+  margin-bottom: 4rem;
+}
+
+.acordeonCovidT {
+  width: 50rem;
+}
+
+.textoCovid {
+  font-size: 1.2rem;
+  font-family: mfont;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0rem 5rem;
+}
+
+.turnoVacuna {
+  margin-bottom: 3rem;
+}
+
+.turnoVacunaT {
+  width: 58rem;
 }
 
 /* Responsive Moto G4  */
