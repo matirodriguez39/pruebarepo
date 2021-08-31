@@ -96,15 +96,8 @@
 
 /* Noticias */
 /* Contacto */
-/* Centrar Formulario */
 .m_centerformH {
-  margin-left: 18rem;
-  margin-right: 18rem;
-}
-
-.m_centerformV {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  width: 25rem;
 }
 
 /* Index */
@@ -314,6 +307,10 @@
   .saludNoticias2 {
     margin: 0rem;
     margin-bottom: 2rem;
+  }
+
+  .m_centerformH {
+    width: 15rem;
   }
 }
 @media (max-width: 600px) and (min-width: 401px) {

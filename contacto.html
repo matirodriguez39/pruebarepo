@@ -30,6 +30,7 @@
 
 <body>
 
+
     <!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light     " style="background-color: #64aacb;">
@@ -82,55 +83,86 @@
         <H1> Contacto</H1>
     </div>
 
-    <div class="m_centerformV">
-        <!-- Formularios de Contacto -->
-        <form method="POST" action="">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <!-- Formularios de Contacto -->
+            <form method="POST" action="">
 
-            <div class="mb-3 mt-3 m_centerformH">
-                <label for="nombreApellido" class="form-label">Nombre y Apellido</label>
-                <input type="text" name="nombre" class="form-control" placeholder="Nombre y Apellido">
+                <div class="mb-3 mt-3 m_centerformH">
+                    <label for="nombreApellido" class="form-label">Nombre y Apellido</label>
+                    <input type="text" name="nombre" class="form-control" placeholder="Nombre y Apellido">
+                </div>
+
+                <div class="mb-3 m_centerformH">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp"
+                        placeholder="Email">
+                </div>
+
+                <div class="mb-4 m_centerformH">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="number" class="form-control" name="telefono" placeholder="Telefono">
+                </div>
+
+                <div>
+                    <label class="form-label m_centerformH">Vive en La Falda</label>
+                </div>
+                <div class="form-check form-check-inline ">
+
+                    <input class="form-check-input" type="radio" name="viveSi" checked>
+                    <label class="form-check-label" for="viveSi">
+                        Si
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="viveNo">
+                    <label class="form-check-label" for="viveNo">
+                        No
+                    </label>
+                </div>
+
+                <div class="mb-4 mt-3 m_centerformH">
+                    <label for="motivo" class="form-label">Motivo</label>
+                    <input type="text" class="form-control" name="motivo" placeholder="Motivo">
+                </div>
+
+                <div class="mb-3 m_centerformH">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea name="mensaje" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary mb-4 m_centerformH">Enviar</button>
+
+            </form>
+        </div>
+
+        <div class="col ">
+            <div class="d-flex justify-content-center mb-5">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmunicipalidadlafalda&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
 
-            <div class="mb-3 m_centerformH">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Email">
+            <div class="d-flex justify-content-center mb-5 textoCovid">
+                <ul>
+                    <li><strong> Dirección: </strong>
+                        Av. Automóvil Club Argentino 32
+                        (X5172AAN) La Falda - Córdoba - Argentina</li>
+
+                    <li><strong> Teléfono:</strong> +54 (03548) 421610 / 425983</li>
+                    <li><strong> E-mail:</strong> info@lafalda.gob.ar</li>
+
+                </ul>
             </div>
 
-            <div class="mb-4 m_centerformH">
-                <label for="telefono" class="form-label">Telefono</label>
-                <input type="number" class="form-control" name="telefono" placeholder="Telefono">
+            <div class="d-flex justify-content-center mb-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1032.7131377554733!2d-64.48683737563269!3d-31.093175697409787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1630452447806!5m2!1ses!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-
-            <div>
-                <label class="form-label m_centerformH">Vive en La Falda</label>
-            </div>
-            <div class="form-check form-check-inline m_centerformH">
-
-                <input class="form-check-input" type="radio" name="viveSi" checked>
-                <label class="form-check-label" for="viveSi">
-                    Si
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="viveNo">
-                <label class="form-check-label" for="viveNo">
-                    No
-                </label>
-            </div>
-
-            <div class="mb-4 mt-3 m_centerformH">
-                <label for="motivo" class="form-label">Motivo</label>
-                <input type="text" class="form-control" name="motivo" placeholder="Motivo">
-            </div>
-
-            <div class="mb-3 m_centerformH">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea name="mensaje" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary mb-4 m_centerformH">Enviar</button>
-
-        </form>
+        </div>
     </div>
 
 
