@@ -11,12 +11,19 @@
     height: 20rem;
 }
 
+.indexCentrar {
+    display: flex;
+    justify-content: center;
+}
+
 .seccionFunciones {
-    @extend %evenly;
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 3em;
     margin-bottom: 3em;
 }
+
 
 .informacionImportante {
     margin-bottom: 2rem;
